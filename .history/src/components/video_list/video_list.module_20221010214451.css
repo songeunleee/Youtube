@@ -1,0 +1,5 @@
+.videos {
+  display: flex;
+  border: solid 5px black;
+  color: aqua;
+}

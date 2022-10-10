@@ -3,14 +3,14 @@ import styles from "./video_item.module.css";
 
 const VideoItem = ({ video: { snippet } }) => (
   <>
-    <li className={styles.container}>
-      <div className={styles.video}>
+    <li className={styles.video}>
+      <div>
         <img
           className={styles.thumbnail}
           src={snippet.thumbnails.medium.url}
           alt="video thimbnail"
         />
-        <div className={styles.metadata}>
+        <div>
           <p className={styles.title}>{snippet.title}</p>
           <p className={styles.channel}> {snippet.channelTitle}</p>
         </div>
